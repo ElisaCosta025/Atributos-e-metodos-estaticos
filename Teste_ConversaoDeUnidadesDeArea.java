@@ -9,7 +9,7 @@ public class Teste_ConversaoDeUnidadesDeArea {
         double x = ConversaoDeUnidadesDeArea.Metro_Para_Pe(8250);
         double y = ConversaoDeUnidadesDeArea.Pe_Para_Acre(x);
         double z = ConversaoDeUnidadesDeArea.Pe_Para_Cm(x);
-        Assertions.assertEquals(z, 88770.0);
+        Assertions.assertEquals(x, 88770.0);
     }
     @Test
     public void Conversao_Test_Acre(){
@@ -19,7 +19,7 @@ public class Teste_ConversaoDeUnidadesDeArea {
         Assertions.assertEquals(y, 2037.8787878787878);
     }
     @Test
-    public void Conversao_Test_cm(){
+    public void Conversao_Test_Cm(){
         double x = ConversaoDeUnidadesDeArea.Metro_Para_Pe(8250);
         double y = ConversaoDeUnidadesDeArea.Pe_Para_Acre(x);
         double z = ConversaoDeUnidadesDeArea.Pe_Para_Cm(x);
